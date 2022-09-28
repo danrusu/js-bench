@@ -1,0 +1,31 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "practice git",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky install",
+    "test": "mocha --require ts-node/register test/**/*.spec.{js,ts}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/git-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danrusu/git-practice/issues"
+  },
+  "homepage": "https://github.com/danrusu/git-practice#readme",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "husky": "^8.0.1",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  }
+}
