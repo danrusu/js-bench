@@ -1,4 +1,7 @@
-const { duration, shuffle } = require('./utils');
+const {
+  time: { duration },
+  array: { shuffle },
+} = require('danrusu-js-utils');
 
 // complexity: n*n
 const sortNN = array => {
