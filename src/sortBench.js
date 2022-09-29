@@ -1,3 +1,6 @@
+// Task: sort an array of 0 and 1.
+// i.e. // [0, 1, 1, 0, 1, 0] => [0, 0, 0, 1, 1, 1]
+
 const {
   time: { duration },
   array: { shuffle },
@@ -44,8 +47,7 @@ const sortN = array => {
   }
 };
 
-// [0, 1, 1, 0, 1, 0] =sort=> [0, 0, 0, 1, 1, 1]
-benchmark = async () => {
+const benchmark = async () => {
   const ARRAY_SIZES = [
     10, 100, 1_000, 10_000, 100_000,
     //1_000_000
